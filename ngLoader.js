@@ -8,7 +8,7 @@ angular.module('ngLoaderTemplates', ['template/ngLoader/ngLoaderTemplate1.html',
 angular.module('template/ngLoader/ngLoaderTemplate1.html', []).run(['$templateCache',
   function($templateCache) {
     $templateCache.put('template/ngLoader/ngLoaderTemplate1.html',
-      "<div class=\"loader\" data-ng-show=\"working\" style=\"position: absolute;top: 0px;bottom: 0px;left: 0px;right: 0px;height: 100% !important;width: 100% !important;\">\n" +
+      "<div class=\"loader\" data-ng-show=\"working\" style=\"fixed: absolute;top: 0px;bottom: 0px;left: 0px;right: 0px;height: 100% !important;width: 100% !important;\">\n" +
       "  <div class=\"loader-content\" style=\"position: absolute;top: 50%;left: 50%;line-height: 1;max-width: 50%;padding: 7px;-o-border-radius: 5px;border-radius: 5px;background-color: rgba(0, 0, 0, 0.5);color: #ffffff;text-transform: uppercase;text-align: center;word-break: break-word;z-index: 1;\">\n" +
       "    <svg version=\"1.1\" id=\"loader_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n" +
       "   width=\"30px\" height=\"30px\" viewBox=\"0 0 40 40\" enable-background=\"new 0 0 40 40\" xml:space=\"preserve\">\n" +
